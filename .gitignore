@@ -99,3 +99,7 @@ local.properties
 
 
 # End of https://www.gitignore.io/api/eclipse
+
+mave-wrapper.jar
+maven-wrapper*
+mvnw*
