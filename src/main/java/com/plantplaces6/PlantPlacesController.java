@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.plantplaces6.dto.SpecimenDTO;
-import com.plantplaces6.service.SpecimenServiceStub;
+import com.plantplaces6.service.ISpecimenService;
 
 
 
@@ -15,7 +15,7 @@ import com.plantplaces6.service.SpecimenServiceStub;
 public class PlantPlacesController {
 	
 	@Autowired
-	private SpecimenServiceStub specimenServiceStub;
+	private ISpecimenService specimenServiceStub;
 	
 	/**
 	 * Handle the /start endpoint.
