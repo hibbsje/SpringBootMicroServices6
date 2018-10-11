@@ -21,6 +21,7 @@ public class PlantPlacesController {
 	 * Handle the /start endpoint.
 	 * @return
 	 */
+	
 	@RequestMapping(value="/start", method=RequestMethod.GET)
 	public String read() {
 		SpecimenDTO specimenDTO = specimenServiceStub.fetchById(43);
